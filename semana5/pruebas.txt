@@ -1,0 +1,8 @@
+Ruta http://localhost:3000
+Al acceder a esta ruta, el servidor responde con el texto "Servidor activo", confirmando que Express está corriendo correctamente en el puerto 3000.
+
+Ruta http://localhost:3000/saludo
+Esta ruta responde con el texto "Hola comunidad". Es un endpoint fijo que siempre devuelve el mismo mensaje sin importar quién lo consulte.
+
+Ruta http://localhost:3000/mensaje/juan
+Esta ruta usa un parámetro dinámico (:nombre). Al visitar /mensaje/juan, el servidor toma "juan" desde la URL mediante req.params.nombre y responde con el texto "Hola juan". Si se cambia el nombre en la URL, la respuesta cambia en consecuencia.
