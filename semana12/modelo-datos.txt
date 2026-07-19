@@ -1,0 +1,13 @@
+Causa
+- id
+- titulo
+- descripcion
+- fecha
+Sirve para almacenar cada iniciativa ciudadana que se quiere impulsar, con la información básica necesaria para que otros la conozcan y decidan apoyarla.
+
+Apoyo
+- id
+- causa_id
+- nombre
+- fecha
+Sirve para registrar cada apoyo individual recibido por una causa, permitiendo contar cuántas personas respaldan la iniciativa y en qué momento lo hicieron.
