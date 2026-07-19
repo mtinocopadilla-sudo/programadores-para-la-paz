@@ -1,0 +1,6 @@
+Las dos tareas del backlog que haría primero son: registrar una incidencia y recibir una alerta en Telegram cuando llega un nuevo reporte. Son las más importantes porque, sin la capacidad de registrar información, no existe ningún dato sobre el cual trabajar después, y sin una notificación inmediata, los coordinadores podrían tardar mucho en enterarse de un problema urgente. Priorizar estas dos primero permite tener un flujo mínimo funcional: un ciudadano reporta, alguien se entera casi de inmediato.
+
+Para mí, que una tarea esté "terminada" significa que cumple al menos estos tres criterios:
+- Funciona correctamente sin errores evidentes.
+- Fue probada manualmente al menos una vez con datos reales o de práctica.
+- Quedó registrada y versionada en Git con un commit claro.

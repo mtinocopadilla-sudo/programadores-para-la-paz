@@ -1,0 +1,4 @@
+Evento: nuevo reporte registrado en la plataforma.
+Acción: enviar un mensaje automático a un canal o grupo de Telegram usando n8n.
+Mensaje: "Nuevo reporte recibido. Revisar sistema."
+Información que no debería enviarse por seguridad: nombres completos, documentos de identidad, direcciones, números de teléfono, contraseñas o cualquier otro dato sensible de la persona que reportó la incidencia. El mensaje debe limitarse a notificar que algo ocurrió, sin exponer datos personales.
